@@ -198,7 +198,7 @@
     <div class="search">
         <img src="/61200664/77321632-bfa01600-6d12-11ea-8be2-4d7409bdf6b9.png" alt="Google Magnifying Glass" class="mag-glass">
         <input type="search">
-        <img src="61200664/77321633-c038ac80-6d12-11ea-880a-68cb316acaa7.png" alt="Google Microphone"class="microphone">
+        <img src="https://user-images.githubusercontent.com/61200664/77321633-c038ac80-6d12-11ea-880a-68cb316acaa7.png" alt="Google Microphone"class="microphone">
     </div>
 
     <div class="buttonWrap">
