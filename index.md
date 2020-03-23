@@ -192,7 +192,7 @@
         </nav>
 <div class="container">
 <div class="google">
-    <img src="imgs/google.png" alt="Google Logo">
+    <img src="/61200664/77321622-ba42cb80-6d12-11ea-966d-c24fad3f11f9.png" alt="Google Logo">
 </div>
 
     <div class="search">
