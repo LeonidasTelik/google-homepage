@@ -1,10 +1,7 @@
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
 <body>
     <style>
@@ -198,7 +195,7 @@
     <div class="search">
         <img src="https://user-images.githubusercontent.com/61200664/77321637-c038ac80-6d12-11ea-9413-bd80ba779c7c.png" alt="Google Magnifying Glass" class="mag-glass">
         <input type="search">
-        <img src="https://user-images.githubusercontent.com/61200664/77321633-c038ac80-6d12-11ea-880a-68cb316acaa7.png" alt="Google Microphone"class="microphone">
+        <img src="https://user-images.githubusercontent.com/61200664/77321633-c038ac80-6d12-11ea-880a-68cb316acaa7.png" alt="Google Microphone" class="microphone">
     </div>
 
     <div class="buttonWrap">
