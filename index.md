@@ -219,6 +219,3 @@
         </ul>
 
     </footer>
-
-</body>
-</html>
