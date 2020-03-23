@@ -1,37 +1,224 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/LeonidasTelik/google-homepage/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *, html {
+            margin: 0;
+        }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+        
+        .nav-container{
+            display: flex;
+            list-style: none;
+            margin-top: 20px;
+            margin-left: 5px;
+            margin-right: 20px;
+            padding-left: 0;
+        }
 
-### Markdown
+        li {
+            padding-left: 15px;
+            font-size: 13px;
+            font-family: arial;
+        }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        a {
+            text-decoration: none;
+            color: #000;
+        }
 
-```markdown
-Syntax highlighted code block
+        .opacity {
+            opacity: 0.75;
+        }
 
-# Header 1
-## Header 2
-### Header 3
+        .nav-container .opacity a:hover {
+            text-decoration: underline;
+        }
 
-- Bulleted
-- List
+        .push {
+            margin-left: auto;
+            margin-right: 10px;
+            display: flex;
+        }
 
-1. Numbered
-2. List
+        .push img {
+            margin: 0 10px;
+        }
 
-**Bold** and _Italic_ and `Code` text
+        .apps-icon {
+            height: 16px;
+            width: 16px;
+            opacity: 0.55;
+        }
 
-[Link](url) and ![Image](src)
-```
+        .apps-icon:hover {
+            opacity: 1;
+        }
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        .sign-in {
+            background-color: #4285f4;
+            padding: 7px 12px 7px 12px;
+            color: #fff;
+            font-weight: 900;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .google {
+            position: relative;
+            bottom: 110px;
+        }
 
-### Jekyll Themes
+        .search {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            bottom: 75px;
+            width: 482px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            height: 44px;
+        }
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LeonidasTelik/google-homepage/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        .search:hover {
+            -webkit-box-shadow: -1px -1px 12px 0px rgba(223,225,229,1);
+            -moz-box-shadow: -1px -1px 12px 0px rgba(223,225,229,1);
+            box-shadow: -1px -1px 12px 0px rgba(223,225,229,1);
+        }
 
-### Support or Contact
+        input {
+            border: none;
+            width: 85%;
+            font-size: 18px;
+        }
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+        input:focus {
+            outline: none;
+        }
+
+        input[type="search"]::-webkit-search-decoration,
+        input[type="search"]::-webkit-search-cancel-button,
+        input[type="search"]::-webkit-search-results-button,
+        input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+        .mag-glass {
+            height: 15px;
+            width: 15px;
+            color: #9AA0A6;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .microphone {
+            height: 25px;
+            width: 25px;
+            margin-right: 15px;
+        }
+
+
+        .buttonWrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            position: relative;
+            bottom: 50px;
+        }
+        .btn {
+            background-color: #f2f2f2;
+            height: 36px;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            padding: 0 16px;
+            text-align: center;
+            line-height: 27px;
+            font-size: 16px;
+            margin-left: 7px;
+            margin-right: 7px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            border: 1px solid #c6c6c6;
+        }
+
+        footer {
+            background-color: #f2f2f2;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer-container {
+            display: flex;
+            list-style: none;
+            padding: 15px;
+        }
+
+        footer a {
+            color: #5f6368;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+         
+    </style>
+        <nav>
+            <ul class="nav-container">
+                <li class="opacity"><a href="#">About</a></li>
+                <li class="opacity"><a href="#">Store</a></li>
+                <div class="push">
+                <li class="opacity"><a href="#">Gmail</a></li>
+                <li class="opacity"><a href="#">Images</a></li>
+                <li><a href="#"><img src="imgs/googleBlack.png" alt="Google Apps Icon" class="apps-icon"></a></li>
+                <li><a href="#" class="sign-in">Sign in</a></li>
+            </div>
+            </ul>
+        </nav>
+<div class="container">
+<div class="google">
+    <img src="imgs/google.png" alt="Google Logo">
+</div>
+
+    <div class="search">
+        <img src="imgs/magGlass.png" alt="Google Magnifying Glass" class="mag-glass">
+        <input type="search">
+        <img src="imgs/googleMic.png" alt="Google Microphone"class="microphone">
+    </div>
+
+    <div class="buttonWrap">
+        <a href="#"><button class="btn opacity">Google Search</button></a>
+        <a href="#"><button class="btn opacity">I'm feeling lucky</button></a>
+    </div>
+
+    <footer>
+        <ul class="footer-container">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search Works</a></li>
+            <div class="push">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </div>
+        </ul>
+
+    </footer>
+
+</body>
+</html>
