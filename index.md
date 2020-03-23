@@ -185,7 +185,7 @@
                 <div class="push">
                 <li class="opacity"><a href="#">Gmail</a></li>
                 <li class="opacity"><a href="#">Images</a></li>
-                <li><a href="#"><img src="https://user-images.githubusercontent.com/61200664/77321622-ba42cb80-6d12-11ea-966d-c24fad3f11f9.png" alt="Google Apps Icon" class="apps-icon"></a></li>
+                <li><a href="#"><img src="https://user-images.githubusercontent.com/61200664/77321632-bfa01600-6d12-11ea-8be2-4d7409bdf6b9.png" alt="Google Apps Icon" class="apps-icon"></a></li>
                 <li><a href="#" class="sign-in">Sign in</a></li>
             </div>
             </ul>
